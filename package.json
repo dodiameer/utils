@@ -5,6 +5,9 @@
   "main": "dist/node/index.js",
   "module": "dist/browser/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "author": "dodiameer",
   "license": "MIT",
   "devDependencies": {
