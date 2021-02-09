@@ -6,7 +6,7 @@
   "module": "dist/browser/index.js",
   "author": "dodiameer",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.1.1",
