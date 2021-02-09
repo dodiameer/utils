@@ -23,6 +23,7 @@
     "build": "yarn build:rollup && yarn build:types",
     "build:rollup": "rollup -c",
     "build:types": "tsc --emitDeclarationOnly",
-    "watch": "rollup -cw"
+    "watch": "rollup -cw",
+    "prepublish": "yarn build"
   }
 }
