@@ -4,6 +4,7 @@
   "description": "a bunch of useful utility functions I use in my projects",
   "main": "dist/node/index.js",
   "module": "dist/browser/index.js",
+  "types": "dist/index.d.ts",
   "author": "dodiameer",
   "license": "MIT",
   "devDependencies": {
@@ -16,6 +17,9 @@
     "typescript": "^4.1.3"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "yarn build:rollup && yarn build:types",
+    "build:rollup": "rollup -c",
+    "build:types": "tsc --emitDeclarationOnly",
+    "watch": "rollup -cw"
   }
 }
