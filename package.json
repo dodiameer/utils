@@ -8,6 +8,7 @@
   "files": [
     "dist/"
   ],
+  "sideEffect": false,
   "author": "dodiameer",
   "license": "MIT",
   "devDependencies": {
